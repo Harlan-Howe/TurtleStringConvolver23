@@ -44,10 +44,10 @@ public class TurtlePanel extends JPanel
         heading = NORTH;
 
         //TODO #0: loop through all the characters in the "instructions" variable.
-        //       Every time you encounter 'L' or 'l', turnLeft();
-        //       Every time you encounter 'R' or 'r', turnRight();
-        //       Every time you encounter 'f', skipForward();
-        //       Every time you encounter 'F', lineForward();
+        //       Every time you encounter 'L' or 'l', turnLeft(g);
+        //       Every time you encounter 'R' or 'r', turnRight(g);
+        //       Every time you encounter 'f', skipForward(g);
+        //       Every time you encounter 'F', lineForward(g);
         //       Every time you encounter some other character, do nothing -- go on to the next character.
 
         // Potential extension... when encountering a numerical digit, change colors.
