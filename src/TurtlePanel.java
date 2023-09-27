@@ -59,7 +59,7 @@ public class TurtlePanel extends JPanel
 
 
         //---------------------------------------------------- end To-Do
-        if (turtleIsVisible) // draw the turtle... after all the lines are done.
+        if (turtleIsVisible) // draw the turtle... after all the lines are finished drawing.
         {
             g.setColor(turtleColor);
             g.drawOval(xLoc-turtleSize/2, yLoc-turtleSize/2, turtleSize, turtleSize); // body
